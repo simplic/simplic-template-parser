@@ -8,7 +8,7 @@ namespace Simplic.Utilities.TemplateParser
         /// <summary>
         /// This method removes old template syntax and returns the new one
         /// </summary>
-        /// <param name="input">Template text to be stripped</param>        
+        /// <param name="input">Template text to be stripped</param>         
         private string StripSyntax(string input)
         {
             if (string.IsNullOrEmpty(input))
