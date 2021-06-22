@@ -17,7 +17,6 @@ namespace Simplic.Utilities.TemplateParser
             return input.Replace("${", "{");
         }
 
-
         /// <summary>
         /// Parses an input with given object values.
         /// </summary>
